@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .btn{
     display: flex;
     justify-content: center;
@@ -80,7 +81,8 @@
 
 .hero-section{
     background-image:url("./assets/hero-bg.png");
-    background-size: cover;
+    background-position: center center;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 100px 0;
 }
@@ -370,7 +372,8 @@
 footer{
     background-image: url("./assets/footer-bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center;
+    background-size: 100% 100%;
     text-align: center;
 }
 
