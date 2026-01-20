@@ -100,7 +100,7 @@
 .hero-container .hero-info p{
     font-size: 16px;
     padding-bottom: 24px;
-    color: #FFFFFF;
+    color: #ffffffc7;
 }
 
 .btn-container{
@@ -177,12 +177,245 @@
 
 .burger-menu-container{
     visibility: hidden;
+    display: none;
+}
+
+.about-section{
+    background-color: #1A0B2E;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.titles{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.about-info-container p{
+    font-size: 16px;
+    color: #ffffffc7;
+    line-height: 25px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.about-info-container{
+    padding-bottom: 80px;
+}
+
+.numbers-containder{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.numbers-containder h3{
+    font-size: 48px;
+    color: #00FF88;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.numbers-containder p{
+    font-size: 16px;
+    color: #ffffffc7;
+    text-transform: uppercase;
+}
+
+.line{
+    color: #ff00002d !important;
+}
+
+.why{
+    background-color: #230E3D;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.why h1{
+    margin-bottom: 40px;
+}
+
+.card h4{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 0;
+    color: #FFFFFF;
+}
+
+.card p{
+    color: #ffffffc7;
+    font-size: 16px;
+}
+
+.card{
+    padding: 40px;
+    background-color: #35116591;
+    border-radius: 40px;
+}
+
+.cards-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#side{
+    grid-row: span 2;
+}
+
+#side-horizontally{
+    grid-column: span 2;
+}
+
+#episode-section{
+    background-color: #1A0B2E;
+}
+
+#episode-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.yt-card{
+    width: 380px;
+    height: 440px;
+    background-color: #250d449d;
+    color: white;
+    border-radius: 40px;
+    overflow: hidden;
+    padding-bottom: 24px;
+}
+
+.yt-card-info{
+    padding: 24px;
+}
+
+.yt-card-info .green-text{
+    color: #00FF88;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.yt-card h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.yt-card p{
+    font-size: 16px;
+    color: #ffffffc7;
+    padding: 12px 0;
+    line-height: 25px;
+}
+
+.yt-card-container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.host-container{
+    background-color: #250d449d;
+    padding: 40px;
+    margin-top: 40px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.host-img{
+    padding-right: 24px;
+}
+
+.host-info h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.host-info p{
+    font-size: 16px;
+    color: #ffffffc7;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+
+.host-icon{
+    display: flex;
+    gap: 8px;
+}
+
+.host-icon-img{
+    border: 1px solid #533C72;
+    border-radius: 70px;
+    width: 15px;
+    height: 15px;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+footer{
+    background-image: url("./assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer-icon-container{
+    display: flex;
+    justify-content: space-between;
+    width: 544px;
+    align-self: center;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.footer-icon-info{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    color: #ffffffc7;
+    padding: 32px 0;
+    cursor: pointer;
+}
+
+.footer-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.copywrite-text p{
+    color: #ffffffc7;
+}
+
+.footer-logo h1{
+    font-size: 60px;
+}
+
+.colored-font{
+    font-size: 60px;
 }
 
 @media (max-width: 576px){
     .burger-menu-container{
         margin: auto 0;
         visibility: visible;
+        display: grid;
     }
 
     .burger-menu-container img{
@@ -222,5 +455,92 @@
         width: 280px;
         height: 280px;
         background-size: cover;
+    }
+
+    .titles{
+    font-size: 32px;
+    }
+
+    .numbers-containder{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .about-info-container{
+        padding-bottom: 40px;
+    }
+
+    .numbers-containder{
+        padding-top: 40px;
+    }
+
+    .container{
+        width: 95%;
+        max-width: 440px;
+    }
+
+    .numbers-info{
+        padding-bottom: 40px;
+    }
+
+    .cards-container{
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    #side{
+        grid-row: span 1;
+    }
+
+    #side-horizontally{
+        grid-column: span 1;
+    }
+
+    .why{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .yt-card-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        gap: 16px;
+    }
+
+    #episode-section{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .host-container{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .host-icon{
+        justify-content: center;
+    }
+
+
+    .footer-icon-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 255px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .footer-logo h1{
+        font-size: 60px;
+    }
+
+    .colored-font{
+        font-size: 60px;
     }
 }
