@@ -407,7 +407,7 @@ footer{
     font-size: 60px;
 }
 
-.colored-font{
+.footer-logo .colored-font{
     font-size: 60px;
 }
 
@@ -534,13 +534,18 @@ footer{
         width: 255px;
         gap: 10px;
         justify-content: center;
+        padding: 24px;
+    }
+
+    .footer-icon-info{
+        padding: 0;
     }
 
     .footer-logo h1{
         font-size: 60px;
     }
 
-    .colored-font{
+    .footer-logo .colored-font{
         font-size: 60px;
     }
 }
