@@ -155,16 +155,6 @@
     align-self: center;
 }
 
-.hero-main-img{
-    width: 350px;
-    height: 350px;
-    background-image: url("./assets/hero-circle.png");
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-}
-
 .hero-img::after{
     content: "NEW";
     background-color: #00FF88;
@@ -175,7 +165,28 @@
     margin-top: -250px;
     margin-left: -80px;
     box-shadow: 1px 1px 20px #00FF88;
+    animation: rotate 3s linear infinite;
 }
+
+.hero-main-img{
+    width: 350px;
+    height: 350px;
+    background-image: url("./assets/hero-circle.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 
 .burger-menu-container{
     visibility: hidden;
